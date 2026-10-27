@@ -8,7 +8,7 @@ Postman collection and environment for the [W System API](https://wsystem.dev): 
    `https://raw.githubusercontent.com/wsystemdev/wsystem-postman/main/wsystem.postman_collection.json`
 2. Optionally import `wsystem.postman_environment.json`.
 3. Send a request. Without a key you get 20 free calls/day per IP.
-   For more, get a free key (500 units/month, email only, no card) at <https://api.wsystem.dev/account/free-key> and put it in the `apiKey` variable (sent as `X-API-Key`).
+   For more, get a free key (500 units/month, email only, no card) at <https://api.wsystem.dev/account/free-key?ref=postman-github> and put it in the `apiKey` variable (sent as `X-API-Key`).
 
 Good first requests: **VAT → Validate one EU VAT number**, **E-invoice → "Can I e-invoice this company?"**, **E-invoice → Validate an EU e-invoice**.
 
